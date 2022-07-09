@@ -28,7 +28,7 @@ body {
 
 body {
 	margin: 0;
-	padding: 10px;
+	padding: 0;
 	line-height: 1.5;
 	font-size: 18px;
 	letter-spacing: .1em;
@@ -42,16 +42,6 @@ body {
 	
 }
 
-h1,
-h3,
-h4,
-h5,
-h6 {
-	font-family: 'Nova Round', cursive;
-	margin: 5px 0;
-	line-height: 1.25;
-}
-
 h1 {
 	font-size: 2.8rem;
 	font-family: 'Nova Round', cursive;
@@ -61,41 +51,9 @@ h1 {
 
 h2 {
 	font-size: 4.2em;
-	font-family: 'Nova Round', cursive;
+	font-family: 'Londrina Outline', cursive;
 	margin: 5px 0;
 	color: var(--tertiary);
-}
-
-h3 {
-	font-size: 1.75rem;
-}
-
-h4 {
-	font-size: 1.5rem;
-}
-
-h5 {
-	font-size: 1.25rem;
-}
-
-h6 {
-	font-size: 1rem;
-}
-
-p {
-	font-size: 1.1rem;
-	margin-top: 0;
-}
-
-a {
-	color: red;
-	text-decoration: none;
-	font-weight: bold;
-	border-radius: 5px;
-	font-weight: 600;
-	padding: 2px 4px;
-	margin-left: -2px;
-	margin-right: -2px;
 }
 
 a:hover {
@@ -111,7 +69,7 @@ header {
 }
 
 header a {
-	color: var(--light);
+	color: var(--lighter);
 }
 
 button {
@@ -132,7 +90,17 @@ button:hover {
 }
 
 button[disabled] {
-	cursor: default;
+	cursor: pointer;
+	opacity: .8;
+}
+
+.portfolio-page {
+	display: flex;
+	flex-direction: column;
+}
+
+.portfolio-image:hover {
+	cursor: pointer;
 	opacity: .8;
 }
 
@@ -206,86 +174,12 @@ textarea {
 	justify-content: flex-end;
 }
 
-.mx-1 {
-	margin-right: var(--spacing-one);
-	margin-left: var(--spacing-one);
-}
-
 .mx-2 {
 	margin-right: var(--spacing-two);
 	margin-left: var(--spacing-two);
 	font-size: 1.5em;
 	text-decoration: underline;
 	color: var(--quaternary)
-}
-
-.my-1 {
-	margin-top: var(--spacing-one);
-	margin-bottom: var(--spacing-one);
-}
-
-.my-2 {
-	margin-top: var(--spacing-two);
-	margin-bottom: var(--spacing-two);
-}
-
-
-.my-5 {
-	margin-top: var(--spacing-five);
-	margin-bottom: var(--spacing-five);
-}
-
-.px-1 {
-	padding-right: var(--spacing-one);
-	padding-left: var(--spacing-one);
-}
-
-.px-2 {
-	padding-right: var(--spacing-two);
-	padding-left: var(--spacing-two);
-}
-
-.py-1 {
-	padding-top: var(--spacing-one);
-	padding-bottom: var(--spacing-one);
-}
-
-.py-2 {
-	padding-top: var(--spacing-two);
-	padding-bottom: var(--spacing-two);
-}
-
-.img-thumbnail {
-	width: auto;
-	height: 300px;
-	margin-bottom: 50px;
-	cursor: pointer;
-}
-
-.modalBackdrop {
-	background: rgba(0, 0, 0, .65);
-	bottom: 0;
-	left: 0;
-	overflow: auto;
-	position: fixed;
-	right: 0;
-	top: 0;
-	z-index: 1;
-}
-
-.modalContainer {
-	background: var(--darker);
-	border-radius: 5px;
-	max-width: 100%;
-	margin: 50px auto;
-	padding: 15px;
-	width: 960px;
-}
-
-.modalTitle {
-	font-size: 18px;
-	font-weight: 600;
-	margin-bottom: 25px;
 }
 
 .navActive {
@@ -347,43 +241,6 @@ textarea {
 
 .bottom-spacing {
 	margin-bottom: var(--spacing-five);
-}
-
-.card {
-	width: 25%;
-	text-align: center;
-}
-
-.card-title {
-	font-size: 1.5rem;
-	color: var(--quaternary);
-}
-
-.card-subtitle {
-	font-size: 1rem;
-	color: var(--tertiary);
-}
-
-.card-text {
-	font-size: 0.75rem;
-	height: 8rem;
-	color: var(--quinary);
-}
-
-.card-techs {
-	font-size: 0.75rem;
-	height: 4rem;
-	color: var(--quinary);
-}
-
-.card-image {
-	max-width: 300px;
-	max-height: 150px;
-}
-
-.card-link {
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	font-size: 0.70rem;
 }
 
 .padding {

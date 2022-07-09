@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Upcycle",
+        "image": "https://user-images.githubusercontent.com/96963955/172195314-b6291879-a84a-4fa4-9b37-6b523e4263b1.png",
+        "github": "https://github.com/jmauch13/project-two",
+        "deploy": "https://upcycle-store.herokuapp.com/",
+        "topics": "JavaScript, Handlebars, Express, SQL, Heroku"
+    },
+    {
+        "id": 2,
+        "name": "The Zen Project",
+        "image": "https://user-images.githubusercontent.com/96963955/162092882-d6b4b82e-2e3e-4f02-9991-36e5ed0acef6.png",
+        "github": "https://github.com/jmauch13/the-zen-project",
+        "deploy": "https://jmauch13.github.io/the-zen-project/",
+        "topics": "HTML, CSS, JavaScript, jQuery, APIs"
+    },
+    {
+        "id": 3,
+        "name": "Coding Quiz",
+        "image": "https://user-images.githubusercontent.com/96963955/159137215-e286c0eb-0b45-4b9e-993d-8a27345eaffc.png",
+        "github": "https://github.com/jmauch13/coding-quiz",
+        "deploy": "https://jmauch13.github.io/coding-quiz/",
+        "topics": "CSS, JavaScript"
+    },
+    {
+        "id": 4,
+        "name": "Weather Dashboard",
+        "image": "https://user-images.githubusercontent.com/96963955/161450311-c68d1664-9b66-42b3-addf-b16261ca8ddd.png",
+        "github": "https://github.com/jmauch13/weather-dashboard",
+        "deploy": "https://jmauch13.github.io/weather-dashboard/",
+        "topics": "Moment.js, Javascript, jQuery, localStorage, API"
+    },
+    {
+        "id": 5,
+        "name": "Work Day Scheduler",
+        "image": "https://user-images.githubusercontent.com/96963955/160265496-05ca7eca-d070-4053-899f-c31502aeb27c.png",
+        "github": "https://github.com/jmauch13/work-day-scheduler",
+        "deploy": "https://jmauch13.github.io/work-day-scheduler/",
+        "topics": "HTML5, CSS, Javascript, jQuery, Bootstrap"
+    }
+]
