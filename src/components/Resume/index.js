@@ -4,7 +4,7 @@ function Resume() {
 	return (
 		<section>
 			<div className="center">
-				<h1 className="page-header">Resume</h1>
+				<h1 className="page-header">My Resume</h1>
 			</div>
 			<div className="bottom-spacing">
 				<a href={require("../../assets/Resume.pdf")} download>
