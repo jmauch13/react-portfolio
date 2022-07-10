@@ -13,7 +13,7 @@ function Portfolio () {
         <section className="container">
           <div className="project">
             <h2 className="page-header">My Portfolio</h2>
-            <hr></hr>
+            
           </div>
 
           <Wrapper id="card-data">
